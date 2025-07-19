@@ -12,7 +12,7 @@
 #define HAS_LOADCELL       true
 #define HAS_BATTERYMONITOR true
 #define HAS_BUZZER         true
-#define CALIBRATION_FACTOR 1200.0f
+#define CALIBRATION_FACTOR 2300.0f
 
 enum ButtonStatus {
     BUTTON_IDLE         = 0,
