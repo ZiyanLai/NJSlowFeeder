@@ -208,7 +208,7 @@ void Board::enterDeepSleep() {
     digitalWrite(IN2MotorPin, LOW);
     delay(10);
     pinMode(IN2MotorPin, INPUT);
-    isolateRtcPin(IN1_GPIO);
+    // isolateRtcPin(IN1_GPIO);
     isolateRtcPin(IN2_GPIO);
 
     // Button Down
